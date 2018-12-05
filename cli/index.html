@@ -40,7 +40,7 @@
     
     
       
-        <title>Cli - Toggl CLI - Documentation</title>
+        <title>Command Line Interface - Toggl CLI - Documentation</title>
       
     
     
@@ -103,7 +103,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#environmental-variables" tabindex="1" class="md-skip">
+      <a href="#command-line-interface" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -129,7 +129,7 @@
                 Toggl CLI - Documentation
               </span>
               <span class="md-header-nav__topic">
-                Cli
+                Command Line Interface
               </span>
             
           
@@ -199,54 +199,6 @@
         
       
       
-        
-
-  
-
-<nav class="md-tabs md-tabs--active" data-md-component="tabs">
-  <div class="md-tabs__inner md-grid">
-    <ul class="md-tabs__list">
-      
-        
-  <li class="md-tabs__item">
-    
-      <a href=".." title="Toggl CLI" class="md-tabs__link">
-        Toggl CLI
-      </a>
-    
-  </li>
-
-      
-        
-  
-  
-    <li class="md-tabs__item">
-      
-        <a href="./" title="Command Line Interface" class="md-tabs__link md-tabs__link--active">
-          Command Line Interface
-        </a>
-      
-    </li>
-  
-
-      
-        
-  
-  
-    <li class="md-tabs__item">
-      
-        <a href="../api/" title="Wrappers" class="md-tabs__link">
-          Wrappers
-        </a>
-      
-    </li>
-  
-
-      
-    </ul>
-  </div>
-</nav>
-      
       <main class="md-main">
         <div class="md-main__inner md-grid" data-md-component="container">
           
@@ -294,8 +246,8 @@
 
 
   <li class="md-nav__item">
-    <a href=".." title="Toggl CLI" class="md-nav__link">
-      Toggl CLI
+    <a href=".." title="About" class="md-nav__link">
+      About
     </a>
   </li>
 
@@ -307,47 +259,58 @@
   
 
 
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
-    
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
-    
-    <label class="md-nav__link" for="nav-2">
-      Command Line Interface
-    </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
-      <label class="md-nav__title" for="nav-2">
-        Command Line Interface
-      </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
-          
-          
-          
-
-  
-
-
   <li class="md-nav__item md-nav__item--active">
     
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
+      
+    
     
       <label class="md-nav__link md-nav__link--active" for="__toc">
-        Cli
+        Command Line Interface
       </label>
     
-    <a href="./" title="Cli" class="md-nav__link md-nav__link--active">
-      Cli
+    <a href="./" title="Command Line Interface" class="md-nav__link md-nav__link--active">
+      Command Line Interface
     </a>
     
       
 <nav class="md-nav md-nav--secondary">
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">Table of contents</label>
     <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#commands-overview" title="Commands overview" class="md-nav__link">
+    Commands overview
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#shell-completion" title="Shell completion" class="md-nav__link">
+    Shell completion
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#datetime-formats" title="Date/time formats" class="md-nav__link">
+    Date/time formats
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#duration-formats" title="Duration formats" class="md-nav__link">
+    Duration formats
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#environmental-variables" title="Environmental variables" class="md-nav__link">
@@ -366,45 +329,16 @@
     
   </li>
 
-        
-      </ul>
-    </nav>
-  </li>
-
     
       
       
       
-
-
-  <li class="md-nav__item md-nav__item--nested">
-    
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
-    
-    <label class="md-nav__link" for="nav-3">
-      Wrappers
-    </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
-      <label class="md-nav__title" for="nav-3">
-        Wrappers
-      </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
-          
-          
-          
 
 
   <li class="md-nav__item">
-    <a href="../api/" title="Api" class="md-nav__link">
-      Api
+    <a href="../api/" title="API Wrappers" class="md-nav__link">
+      API Wrappers
     </a>
-  </li>
-
-        
-      </ul>
-    </nav>
   </li>
 
     
@@ -422,9 +356,39 @@
 <nav class="md-nav md-nav--secondary">
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">Table of contents</label>
     <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#commands-overview" title="Commands overview" class="md-nav__link">
+    Commands overview
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#shell-completion" title="Shell completion" class="md-nav__link">
+    Shell completion
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#datetime-formats" title="Date/time formats" class="md-nav__link">
+    Date/time formats
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#duration-formats" title="Duration formats" class="md-nav__link">
+    Duration formats
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#environmental-variables" title="Environmental variables" class="md-nav__link">
@@ -452,17 +416,121 @@
                   <a href="https://github.com/auhau/toggl-cli/edit/master/docs/cli.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                  <h1>Cli</h1>
-                
-                <h3 id="environmental-variables">Environmental variables<a class="headerlink" href="#environmental-variables" title="Permanent link">&para;</a></h3>
+                <h1 id="command-line-interface">Command Line Interface<a class="headerlink" href="#command-line-interface" title="Permanent link">&para;</a></h1>
+<p>Upon installation of Toggl CLI with pip, it exposes the command line interface under binary <code>toggl</code>. </p>
+<p>This section will explain the high-level overview of the CLI and several features. For detailed 
+overview of all options for each command, please use <code>--help</code> parameter.</p>
+<div class="admonition warning">
+<p class="admonition-title">Virtualenv and other modifications of Python environment</p>
+<p>As the <code>toggl</code> binary depends on the Python's environment, any action which would modify this environment, such as
+usage of virtualenv etc. might disable access to this binary. It depends on which environment you have installed <code>toggl</code> in.</p>
+</div>
+<h3 id="commands-overview">Commands overview<a class="headerlink" href="#commands-overview" title="Permanent link">&para;</a></h3>
+<p>The CLI is designed to have several sub-commends which each corresponds to adequate section of the API. Here is presented 
+brief overview of the hierarchy.</p>
+<div class="codehilite"><pre><span></span>toggl
+├── add --- adds new time entry
+├── clients
+│   ├── add
+│   ├── get
+│   ├── ls
+│   ├── rm
+│   └── update
+├── config
+│   ├── timezone --- sets/display timezone setting
+│   ├── workspace --- sets/display default workspace setting
+│   └── completion
+│       ├── show --- displays what will be added to your shell&#39;s rc file
+│       └── install --- enable commands completion for your shell
+├── continue --- continue existing/last time entry
+├── ls --- lists last time entries
+├── now --- show/update currently runnig time entry
+├── project_users --- list all project users in workspace
+├── projects
+│   ├── add
+│   ├── get
+│   ├── ls
+│   ├── rm
+│   ├── update
+│   └── users
+│       ├── add
+│       ├── ls
+│       ├── rm
+│       └── update
+├── rm --- delete a time entry
+├── start --- starts new time entry
+├── stop --- stops running time entry
+├── tasks
+│   ├── add
+│   ├── get
+│   ├── ls
+│   ├── rm
+│   └── update
+├── users
+│   ├── get
+│   ├── ls
+│   └── signup --- creates new user
+├── workspaces
+│   ├── get
+│   ├── ls
+│   └── users
+│       ├── invite --- invites user into the current workspace
+│       ├── ls
+│       ├── rm
+│       └── update
+└── www --- opens web client
+</pre></div>
+
+
+<h3 id="shell-completion">Shell completion<a class="headerlink" href="#shell-completion" title="Permanent link">&para;</a></h3>
+<p>Toggl CLI supports commands/options completion for <code>bash</code>, <code>zsh</code>, <code>PowerShell</code> and <code>fish</code> shells. </p>
+<p>To enable the completion run <code>toggl config completion install</code>. </p>
+<p>This command will install completion based on your current shell, it mostly consist of adding 
+<code>_TOGGL_COMPLETE</code> variable to your <code>rc</code> file. If you want to inspect details you can
+run <code>toggl config completion show</code>.</p>
+<h3 id="datetime-formats">Date/time formats<a class="headerlink" href="#datetime-formats" title="Permanent link">&para;</a></h3>
+<p>Important part of the CLI is parsing of times &amp; dates. Toggl CLI uses in background of <code>dateutil</code> library and it best-effort
+function <code>dateutil.parse()</code>. This function aims to guess the format of your time or date on best-effort bases. </p>
+<p>It is possible to influence behaviour of this parser through <code>day_first</code> and <code>year_first</code> settings in config file. See 
+<a href="..#possible-settings">possible settings</a>.</p>
+<p>Examples:</p>
+<div class="codehilite"><pre><span></span>10:10 ==&gt; &lt;current date&gt; 10:10
+14:10 ==&gt; current date&gt; 14:10
+2:10 PM ==&gt; current date&gt; 14:10
+
+Nov 12 10:11 AM ==&gt; &lt;current year&gt;-11-12 10:11
+
+# For only day/month dates the first is always day and second is always month
+12.11 10:11 ==&gt; &lt;current year&gt;-11-12 10:11  
+11.12 10:11 ==&gt; &lt;current year&gt;-12-11 10:11
+
+# For ful date (day/month/year) the day_first/year_first setting is applied
+12.11.18 10:11 ==&gt; 2018-12-11 10:11
+12.11.18 10:11 ==&gt; 2018-11-12 10:11 # When day_first=True
+12.11.18 10:11 ==&gt; 2012-11-18 10:11 # When year_first=True
+</pre></div>
+
+
+<p>More examples can be found at <a href="https://pendulum.eustace.io/docs/#rfc-3339">pendulum's documentation</a></p>
+<h3 id="duration-formats">Duration formats<a class="headerlink" href="#duration-formats" title="Permanent link">&para;</a></h3>
+<p>Another important part of the CLI is duration syntax for specifying time entries durations if desired. 
+Example: 5h2m10s - 5 hours 2 minutes 10 seconds.</p>
+<p>Syntax is as follow:</p>
+<ul>
+<li>'d' : days</li>
+<li>'h' : hours</li>
+<li>'m' : minutes</li>
+<li>'s' : seconds</li>
+</ul>
+<h3 id="environmental-variables">Environmental variables<a class="headerlink" href="#environmental-variables" title="Permanent link">&para;</a></h3>
 <p>It is possible to specify several options for the CLI commands through environmental variables. This can for example nicely
 play out for directory specific settings (for example for projects) with <a href="https://github.com/direnv/direnv">direnv</a> tool. 
 Generally this mechanism is available for commands that create new entities. Values specified through this way have
 priority over config values.</p>
-<p>You can see which options can be specified in command's help where at the options help is
+<p>You can see which options can be specified in command's help page where at the option's help is
 used <code>(ENV: &lt;name of variable&gt;)</code> syntax. Bellow you can see general overview of the variables:</p>
 <ul>
-<li><strong>TOGGL_CONFIG</strong> - Defines which config file should be used. Should be absolute path. By default ~/.togglrc is used.</li>
+<li><strong>TOGGL_CONFIG</strong> - Defines which config file should be used. Should be absolute path. By default <code>~/.togglrc</code> is used.</li>
 <li><strong>TOGGL_WORKSPACE</strong> - Defines workspace to be used for the command, can be ID or Name of the Workspace.</li>
 <li><strong>TOGGL_TASK</strong> - Defines task to be used, can be ID or Name of the Task.</li>
 <li><strong>TOGGL_PROJECT</strong> - Defines project to be used, can be ID or Name of the Project.</li>
@@ -490,7 +558,7 @@ used <code>(ENV: &lt;name of variable&gt;)</code> syntax. Bellow you can see gen
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href=".." title="Toggl CLI" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href=".." title="About" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -499,19 +567,19 @@ used <code>(ENV: &lt;name of variable&gt;)</code> syntax. Bellow you can see gen
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Toggl CLI
+                About
               </span>
             </div>
           </a>
         
         
-          <a href="../api/" title="Api" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../api/" title="API Wrappers" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Api
+                API Wrappers
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
